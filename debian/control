@@ -1,0 +1,19 @@
+Source: libdisplaycore-drivers-framebufferrambo
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-drivers-framebufferrambo
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core, libdspi-chipkit
+Provides: FramebufferRambo.h
+Description: FramebufferRambo library
+ Framebuffer with external SPI SRAM memory backing store
+
+
+

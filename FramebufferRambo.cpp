@@ -150,7 +150,7 @@ void FramebufferRambo::draw(DisplayCore *dev, int x, int y, color_t t) {
     color_t line[getWidth()];
 
     for (int py = 0; py < getHeight(); py++) {
-        boolean haveTrans = false;
+        bool haveTrans = false;
         for (int px = 0; px < getWidth(); px++) {
             color_t col = read(p);
             if (col == t) {

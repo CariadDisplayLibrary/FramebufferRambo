@@ -6,10 +6,10 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
 Package: libdisplaycore-drivers-framebufferrambo
-Section: main
 Architecture: all
 XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
+XBSC-Subsubgroup: Virtual
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: FramebufferRambo.h
 Description: Rambo Framebuffer

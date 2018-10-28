@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: FramebufferRambo.h
-Description: FramebufferRambo library
+Description: Rambo Framebuffer
  Framebuffer with external SPI SRAM memory backing store
 
 

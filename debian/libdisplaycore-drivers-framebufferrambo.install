@@ -1,2 +1,3 @@
-FramebufferRambo.cpp libraries/DisplayCore/FramebufferRambo
-FramebufferRambo.h libraries/DisplayCore/FramebufferRambo
+library.json libraries/DisplayCore/FramebufferRambo
+library.properties libraries/DisplayCore/FramebufferRambo
+src libraries/DisplayCore/FramebufferRambo

@@ -1,16 +1,17 @@
-Source: libdisplaycore-drivers-framebufferrambo
+Source: libcariad-drivers-framebufferrambo
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-drivers-framebufferrambo
+Package: libcariad-drivers-framebufferrambo
+Replaces: libdisplaycore-drivers-framebufferrambo
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: Virtual
-Depends: libdisplaycore-core, libdspi-chipkit
+Depends: libcariad-core, libdspi-chipkit
 Provides: FramebufferRambo.h
 Description: Rambo Framebuffer
  Framebuffer with external SPI SRAM memory backing store

@@ -1,0 +1,3 @@
+library.json libraries/Cariad/FramebufferRambo
+library.properties libraries/Cariad/FramebufferRambo
+src libraries/Cariad/FramebufferRambo

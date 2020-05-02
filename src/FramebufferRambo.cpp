@@ -99,7 +99,7 @@ void FramebufferRambo::fillScreen(color_t color) {
     }
 }
 
-void FramebufferRambo::draw(DisplayCore *dev, int x, int y) {
+void FramebufferRambo::draw(Cariad *dev, int x, int y) {
     if (_filter != NULL) {
         uint32_t p = 0;
         color_t line[getWidth()];
@@ -145,7 +145,7 @@ void FramebufferRambo::draw(DisplayCore *dev, int x, int y) {
     }
 }
 
-void FramebufferRambo::draw(DisplayCore *dev, int x, int y, color_t t) {
+void FramebufferRambo::draw(Cariad *dev, int x, int y, color_t t) {
     uint32_t p = 0;
     color_t line[getWidth()];
 
@@ -178,7 +178,7 @@ void FramebufferRambo::draw(DisplayCore *dev, int x, int y, color_t t) {
     }
 }
 
-void FramebufferRambo::drawTransformed(DisplayCore *dev, int x, int y, int transform) {
+void FramebufferRambo::drawTransformed(Cariad *dev, int x, int y, int transform) {
     uint32_t p = 0;
     for (int py = 0; py < getHeight(); py++) {
         for (int px = 0; px < getWidth(); px++) {
@@ -201,7 +201,7 @@ void FramebufferRambo::drawTransformed(DisplayCore *dev, int x, int y, int trans
     }
 }
 
-void FramebufferRambo::drawTransformed(DisplayCore *dev, int x, int y, int transform, color_t t) {
+void FramebufferRambo::drawTransformed(Cariad *dev, int x, int y, int transform, color_t t) {
     uint32_t p = 0;
     for (int py = 0; py < getHeight(); py++) {
         for (int px = 0; px < getWidth(); px++) {

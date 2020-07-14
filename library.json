@@ -1,1 +1,26 @@
-{"name":"FramebufferRambo","keywords":"display, cariad, tft, lcd, glcd, oled, graphics, font","description":"FramebufferRambo for Cariad","homepage":"http:\/\/cariad.org\/wiki\/index.php?title=Acorn","repository":{"type":"git","url":"https:\/\/github.com\/Cariad\/FramebufferRambo.git"},"dependencies":[{"name":"Cariad","version":"2.1.0"}],"export":{"exclude":"debian"},"authors":{"name":"Majenko Technologies","url":"http:\/\/majenko.co.uk"},"version":"2.0.7","frameworks":"arduino","platforms":"microchippic32"}
+{
+    "name": "FramebufferRambo",
+    "keywords": "display, cariad, tft, lcd, glcd, oled, graphics, font",
+    "description": "FramebufferRambo for Cariad",
+    "homepage": "https:\/\/github.com\/CariadDisplayLibrary\/FramebufferRambo",
+    "repository": {
+        "type": "git",
+        "url": "https:\/\/github.com\/CariadDisplayLibrary\/FramebufferRambo"
+    },
+    "dependencies": [
+        {
+            "name": "Cariad",
+            "version": "2.1.0"
+        }
+    ],
+    "export": {
+        "exclude": "debian"
+    },
+    "authors": {
+        "name": "Majenko Technologies",
+        "url": "http:\/\/majenko.co.uk"
+    },
+    "version": "2.1.0",
+    "frameworks": "arduino",
+    "platforms": "microchippic32"
+}
